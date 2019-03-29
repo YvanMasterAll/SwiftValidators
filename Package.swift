@@ -1,3 +1,4 @@
+// swift-tools-version:5.0
 //
 //  Package.swift
 //  SwiftValidators
@@ -9,5 +10,8 @@
 import PackageDescription
 
 let package = Package(
-	name: "SwiftValidators"
+	name: "SwiftValidators",
+	targets: [
+		.target(name: "SwiftValidators", dependencies: [])
+	]
 )
